@@ -2,7 +2,6 @@ package age_calculator;
 
 import java.time.LocalDate;
 import java.time.Period;
-import java.time.ZoneId;
 import java.util.Scanner;
 
 public class AgeCalculator {
