@@ -22,3 +22,11 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+/.metadata/
+
+.fake
+age_calculator/.classpath
+age_calculator/.project
+age_calculator/.settings/org.eclipse.core.resources.prefs
+age_calculator/.settings/org.eclipse.jdt.core.prefs
+age_calculator/src/module-info.java

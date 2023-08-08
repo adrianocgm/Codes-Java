@@ -16,9 +16,8 @@ public class AgeCalculator {
 		System.out.println("Enter your brith date 'AAAA-MM-DD' : ");
 		String birthDate = scanner.nextLine();
 		LocalDate birthDateLocal = LocalDate.parse(birthDate);
-		
-		ZoneId zoneId = ZoneId.of("America/Sao_Paulo");
-		LocalDate today = LocalDate.now(zoneId);
+				
+		LocalDate today = LocalDate.now();
 		
 		Period period = Period.between(birthDateLocal, today);
 		
